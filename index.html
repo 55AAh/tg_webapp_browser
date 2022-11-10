@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<script>
+		function key_down(box) {
+			if(event.key === 'Enter') {
+		        document.location.href = box.value;
+		    }
+		}
+	</script>
+</head>
+
+<body>
+
+	<input type="text" id="url_box" onkeydown="key_down(this)">
+
+</body>
+
+</html>
